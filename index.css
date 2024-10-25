@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(https://images3.alphacoders.com/276/276815.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+nav{
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    padding:30px;
+    font-size: 30px;
+    position: relative;
+    
+    
+}
+
+nav a:hover{
+    color:aquamarine;
+    transform: scale(1.40);
+    transition-delay:0.3s;
+    transition-duration:0.4s;
+    border:1px solid bisque;
+    border-radius: 10px;
+    background-color:aliceblue;
+   
+   
+
+}
+nav a{
+    margin-right:140px;text-decoration:none;color:red;
+    transition: 0.3s;
+    color:white;
+    
+}
+nav:hover{
+    background-color: #eb8071;
+    transition:0.3s;
+   
+    
+}
