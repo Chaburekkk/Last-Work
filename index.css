@@ -60,7 +60,8 @@ header img{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width:1200px;
+    width:1800px;
+
   }
   
   .card {
@@ -72,8 +73,9 @@ header img{
     border-radius: 15px;
     font-size: 20px;
     margin-top:13px;
-    margin:30px;
+    
     cursor:pointer;
+    margin:30px;
   }
   
   .card img {
