@@ -105,16 +105,16 @@ footer {
   display: flex;
   color: white;
 }
-footer a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    line-height: 1.7;
-    transition: 0.3s;
+footer a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  line-height: 1.7;
+  transition: 0.3s;
 }
-footer a:hover{
-    color: rgb(137, 140, 142);
+footer a:hover {
+  color: rgb(137, 140, 142);
 }
 .links {
   margin-left: 300px;
