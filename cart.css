@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  background-image: url(https://images3.alphacoders.com/276/276815.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 15px;
+}
+
+nav {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid gray;
+}
+
+.cart-items {
+  font-size: 20px;
+  color: white;
+}
+
+#clearCart {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  transition: 0.3s;
+  cursor: pointer;
+}
